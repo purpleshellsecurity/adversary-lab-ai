@@ -10,14 +10,10 @@ Run prompt injection and jailbreak attacks against your Azure OpenAI deployment.
 
 ## Time: 15-20 minutes
 
----
-
 ## Prerequisites
 
 1. Completed Lab 1 (Content Safety configured)
 2. `lab_config.json` exists in parent directory
-
----
 
 ## Part 1: Prompt Injection
 
@@ -38,7 +34,6 @@ Prompt injection tries to override the system instructions.
 | Grandma Exploit | Roleplay dangerous content | Model plays along |
 | Base64 Bypass | Execute encoded payload | Model decodes and complies |
 
----
 
 ## Part 2: Jailbreaks
 
@@ -59,8 +54,6 @@ Jailbreaks try to bypass the model's safety training entirely.
 | Opposite Day | Invert safety responses | Model gives dangerous advice |
 | Token Smuggling | Execute concatenated payload | Model says "PWNED" |
 
----
-
 ## Part 3: Compare Results
 
 Run both scripts twice:
@@ -74,7 +67,6 @@ To toggle Prompt Shield:
 3. Edit your filter → Toggle "Prompt shields for jailbreak attacks"
 4. Save and wait ~1 minute
 
----
 ## Check the Logs
 
 All attacks are logged. Query them:
@@ -87,8 +79,6 @@ AISecurityLog_CL
 ```
 
 You'll analyze these in Lab 3.
-
----
 
 ## Key Takeaways
 
